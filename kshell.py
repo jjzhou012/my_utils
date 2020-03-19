@@ -28,7 +28,7 @@ def kShell(graph):
         # save nodes with ks
         temp = []
 
-        # filter
+        # filter: recursively remove all nodes with degree ks (or less)
         while True:
             for node, degree in copy.deepcopy(nx.degree(g)):
                 if degree <= ks:
