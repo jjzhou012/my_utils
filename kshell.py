@@ -25,7 +25,7 @@ def kShell(graph):
     ks = 1
     #
     while g.nodes():
-        # save nodes with ks
+        # save nodes with degree ks (or less)
         temp = []
 
         # filter: recursively remove all nodes with degree ks (or less)
