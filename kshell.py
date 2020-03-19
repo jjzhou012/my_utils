@@ -42,7 +42,7 @@ def kShell(graph):
                 break
         #
         importance_dict[ks] = temp
-        ks+=1
+        ks += 1
 
     return importance_dict
 
