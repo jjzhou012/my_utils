@@ -5,7 +5,8 @@
 @contact: jjzhou012@163.com
 @file: similarity.py
 @time: 2019/11/6 16:55
-@desc:      compute the lp scores of all nodes in ebunch
+@desc:      node similarity-based link prediction
+            compute the lp scores of all pairwise-vertices in ebunch
 '''
 
 import networkx as nx
