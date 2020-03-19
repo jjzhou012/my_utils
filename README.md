@@ -1,2 +1,2 @@
-# graph_algorithm
+# graph algorithm
 graph (network) algorithm
