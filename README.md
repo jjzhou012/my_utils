@@ -2,4 +2,7 @@
 
 
 ## Node importance
-- k-shell
+- k-shell : `kShell.py`
+
+## Link prediction
+- node similarity : `similarity.py`
